@@ -1,0 +1,33 @@
+{
+  "name": "angularjs_demo",
+  "version": "1.0.0",
+  "description": "This is Demo projct for Angular build in TS",
+  "main": "TestFilter.html",
+  "scripts": {
+    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
+    "lite": "lite-server",
+    "postinstall": "typings install",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "typings": "typings"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdebdeep/AngularJSDemo.git"
+  },
+  "keywords": [
+    "AngularJS",
+    "With",
+    "TS"
+  ],
+  "author": "Debdeep Chaudhuri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cdebdeep/AngularJSDemo/issues"
+  },
+  "homepage": "https://github.com/cdebdeep/AngularJSDemo#readme",
+  "dependencies": {
+    "angular": "^1.5.5",
+    "lite-server": "^2.2.0"
+  }
+}
